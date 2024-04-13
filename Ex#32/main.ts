@@ -12,9 +12,10 @@ new_user.forEach(new_one_user =>{
     let our_condition = current_user.some(current_one_user => current_one_user.toLowerCase() === new_one_user.toLowerCase())
     // print messeges using if else statement
     if(our_condition){
-        console.log(`Sorry ${new_one_user} is already taking`)
+        console.log(`\nSorry ${new_one_user} is already taking
+"so you need to use a new user name"`);
     }else{
-        console.log(`this username ${new_one_user}, is available`)
+        console.log(`\nthis username ${new_one_user}, is available`)
     }
 
 })

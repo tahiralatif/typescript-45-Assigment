@@ -1,5 +1,5 @@
 // creating array of favfruits:
-let favourite_fruit: string[] = ["mango","orange","banana"];
+ let favourite_fruit: string[] = ["mango","orange","banana"];
 
 if(favourite_fruit.includes("mango")){
     console.log("I really like mangoes");

@@ -1,5 +1,8 @@
+// cresting a Array with 5 values
 var userName = ["Kinza", "Unza", "Maiza", "Admin", "Sulaifa"];
+// Remove the all values now our array is empty:
 userName = [];
+// using if with length statement for checking array values
 if (userName.length === 0) {
     console.log("Our Array is empty we need to find some users!");
 }

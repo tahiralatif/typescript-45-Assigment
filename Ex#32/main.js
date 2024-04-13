@@ -8,9 +8,9 @@ new_user.forEach(function (new_one_user) {
     var our_condition = current_user.some(function (current_one_user) { return current_one_user.toLowerCase() === new_one_user.toLowerCase(); });
     // print messeges using if else statement
     if (our_condition) {
-        console.log("Sorry ".concat(new_one_user, " is already taking"));
+        console.log("\nSorry ".concat(new_one_user, " is already taking\n\"so you need to use a new user name\""));
     }
     else {
-        console.log("this username ".concat(new_one_user, ", is available"));
+        console.log("\nthis username ".concat(new_one_user, ", is available"));
     }
 });

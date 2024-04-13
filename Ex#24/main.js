@@ -1,9 +1,10 @@
+"use strict";
 // variables:
-var carrot = "carrot";
-var Uppercasecarrot = "CARROT";
-var ten = 10;
-var twenty = 20;
-var fruits = ["apple", "banana", "orange"];
+let carrot = "carrot";
+let Uppercasecarrot = "CARROT";
+let ten = 10;
+let twenty = 20;
+let fruits = ["apple", "banana", "orange"];
 // Test for equality and inequality with string:
 // equality...
 console.log("Equality");
@@ -48,7 +49,7 @@ console.log(twenty != 10 && twenty > 30);
 // using || (or)
 console.log("\nten is greater than 20 or ten is equals to ten");
 console.log(ten > 20 || ten == 10);
-console.log("\nten is greater than 20 or not equals to 10");
+console.log("\nten is greater than 20 or 10 is not equals to 10");
 console.log(ten > 20 || ten != 10);
 // test whether an item is include array:
 console.log("\nis orange include my fruits array?");

@@ -7,6 +7,6 @@ for(let one_pizza of favPizza){
     console.log(`I like ${one_pizza} pizza `);
 }
 // print a messege outside the for_loop method:
-console.log("I really like pizza");
+console.log("I really like pizza's");
 
 

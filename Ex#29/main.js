@@ -16,3 +16,4 @@ if (favourite_fruit.includes("banana")) {
 if (favourite_fruit.includes("strawberry")) {
     console.log("i really like strawberries");
 }
+favourite_fruit.forEach(onefruits => console.log(`i really like ${onefruits}`));

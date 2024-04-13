@@ -64,7 +64,7 @@ console.log(twenty != 10 && twenty > 30);
 console.log("\nten is greater than 20 or ten is equals to ten");
 console.log(ten > 20 || ten == 10);
 
-console.log("\nten is greater than 20 or not equals to 10");
+console.log("\nten is greater than 20 or 10 is not equals to 10");
 console.log(ten > 20 || ten != 10);
 
 // test whether an item is include array:
